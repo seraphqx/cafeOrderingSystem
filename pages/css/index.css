@@ -7,7 +7,7 @@
 body{
 display: flex;
 align-items: flex-start;
-gap: 25px;
+gap: 0px;
 max-width: 1200px;
 margin: 0 auto;
 padding: 20px;
@@ -98,6 +98,7 @@ min-width: 0;
 
 display: flex;
 flex-direction: column;
+gap: 25px;
 }
 
 .pageTitle{
@@ -110,3 +111,113 @@ flex-direction: column;
     font-size: xx-large;
 }
 
+.specials{
+        background-color: #BAB195;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 25px;
+    color: #E6DBCD;
+    font-family: "Caprasimo","Sans-Serif";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.item{
+        background-image: url("../assets/coffee.jpg");
+        background-size: cover;
+        background-position: center;
+    padding:15px;
+    width: 20% ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-radius: 25px;
+    color: #E6DBCD;
+    font-family: "Caprasimo","Sans-Serif";
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+
+}
+
+.info p{
+    font-size: 20px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 5%;
+
+}
+
+.info{
+    background-color: #B4A99B;
+    margin-top: auto;
+    border-radius: 25px;
+    font-family: "Montserrat", "Sans-Serif";
+    gap: 0px !important;
+}
+
+button{
+    width: 75%;
+    height: 30%;
+    background-color: #4C5335;
+    border: none;
+    padding: 2px;
+    border-radius: 15px;
+    font-family: "Montserrat", "Sans-Serif";
+    color: #B4A99B;
+    margin-bottom: 5px;
+
+}
+
+.sectionTitle{
+    text-align: center;
+    padding: 20px 0 20px 0px;
+    border-radius: 25px;
+    color: #4C5335;
+    font-family: "Montserrat", "Sans-Serif";
+    font-size: x-large;
+
+    margin-bottom: -25px !important;
+}
+
+.specials{
+        background-color: #BAB195;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 25px;
+    color: #E6DBCD;
+    font-family: "Caprasimo","Sans-Serif";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+
+
+.about{
+        background-color: #BAB195;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 25px;
+    color: #E6DBCD;
+    font-family: "Montserrat", "Sans-Serif";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.about p{
+        font-family: "Montserrat", "Sans-Serif";
+        padding:10px;
+}
